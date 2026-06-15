@@ -1,14 +1,50 @@
 [
   {
-    "task": "Parse an AWS S3 object key to extract the bucket name, folder path, and file name from a full S3 URI like 's3://my-bucket/path/to/file.txt'",
-    "format": "regex"
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "75 kg",
+      "goal": "Marathon training with carbohydrate loading and elevated caloric intake for high-endurance performance",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus pre/post-training nutrition timing",
+      "Total daily calories and carbohydrate intake support marathon training needs (approximately 3000+ calories, 60%+ carbs)",
+      "All meals comply with vegetarian and nut-free restrictions",
+      "Meals are practical and concise (no excessive detail)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring elevated caloric intake and carbohydrate loading with specific timing around training"
   },
   {
-    "task": "Create a Python function that validates if an AWS IAM role ARN follows the correct format and extract the role name from it",
-    "format": "python"
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "muscle recovery and strength building with optimized pre/post-workout nutrition",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers 1 full day with 4-5 meals distributed around training",
+      "Protein intake distributed across meals (minimum 1.6g per kg body weight)",
+      "Includes specific pre-workout and post-workout nutrition timing and composition",
+      "Compact format with meal names, times, and key macronutrient info"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing high protein distribution and pre/post-workout nutrition strategy for muscle recovery"
   },
   {
-    "task": "Generate a JSON CloudFormation template snippet that defines an AWS Lambda function resource with basic configuration including function name, runtime, and IAM role",
-    "format": "json"
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Maintain current weight while cutting 2kg for weigh-in in 3 days, then refuel for performance",
+      "restrictions": "Vegetarian, no processed foods"
+    },
+    "solution_criteria": [
+      "Meal plan is compact (1 day only) with 4-5 meals listed",
+      "Total daily calories support gradual weight loss (~500-700 calorie deficit) without compromising performance",
+      "All meals are vegetarian and whole-food based with no processed ingredients",
+      "Meals prioritize nutrient density with adequate protein (1.6-1.8g per kg), carbs for training, and micronutrients for recovery"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a weight-class constrained athlete (boxer or wrestler) requiring calorie control and nutrient density while maintaining performance and making weight"
   }
 ]
